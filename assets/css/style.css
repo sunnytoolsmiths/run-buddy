@@ -1,0 +1,48 @@
+body {
+    /* more on this crazy style */
+    font-family:'Courier New', Courier, monospace;
+    background-color: tomato;
+}
+
+header {
+    padding: 20px
+}
+
+header {
+    padding: 10px 15px 20px 25px;
+}
+
+header {
+    padding-top:10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
