@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -44,22 +45,27 @@ header nav ul li a {
     font-size: 22px;
 }
 
-section h2 {
+section {
+    padding: 60px;
+    background-image: url("../images/hero-bg.jpg");
+}
+
+section {
     display: inline;
     font-size: 24px;
     color: #39a6b2;
 }
 
 footer {
-    background: white;
+    background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2 {
     display: inline;
-    color: #39a6b2;
-    font-size: 24px;
+    color: #024e76;
+    font-size: 30px;
     margin: 0;
 }
 
