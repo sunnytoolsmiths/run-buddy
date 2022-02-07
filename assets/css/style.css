@@ -1,3 +1,6 @@
+/***********************/
+/**** Global Styles ****/
+/***********************/
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +13,28 @@ body {
     background-color: white;
 }
 
+h2 {
+    display: inline;
+    font-size: 24px;
+    color: #39a6b2;
+}
+
+form input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 60px;
+}
+
 header {
-    padding-top:10px;
+    padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 20px;
     padding-left: 25px;
@@ -25,6 +48,7 @@ header h1 {
     margin: 0;
     display: inline;
 }
+
 header a {
     text-decoration: none;
     color: #fce138;
@@ -35,7 +59,7 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li{
+header nav ul li {
     display: inline;
 }
 
@@ -45,6 +69,15 @@ header nav ul li a {
     font-size: 22px;
 }
 
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/***********************/
+/*** Selector Styles ***/
+/***********************/
 .hero {
     background-image: url("../css/images/hero-bg.jpg");
     height: 600px;
@@ -56,7 +89,7 @@ header nav ul li a {
 .hero-form {
     background-color: #fce138;
     padding: 20px;
-    width:500px;
+    width: 500px;
     color: #024e76;
     border-style: solid;
     border-width: 3px;
@@ -71,25 +104,15 @@ header nav ul li a {
     margin: 0;
 }
 
-.hero-form p{
+.hero-form p {
     margin: 5px 0 15px 0;
 }
 
-form input {
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.hero-form label{
+.hero-form label {
     margin: 0 5px;
 }
 
-.hero-form button{
+.hero-form button {
     color: #fce138;
     background-color: #024e76;
     border: none;
@@ -97,16 +120,40 @@ form input {
     font-size: 16px;
 }
 
-h2 {
-    display: inline;
-    font-size: 24px;
-    color: #39a6b2;
+.intro {
+    text-align: center;
 }
 
-footer {
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.steps {
+    text-align: cetner;
     background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
+}
+
+.steps h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #29a6b2;
 }
 
 footer h2 {
@@ -124,8 +171,4 @@ footer div {
 
 footer a {
     color: #024e76;
-}
-
-section {
-    padding: 60px;
 }
